@@ -1,0 +1,101 @@
+/* Locally imported typography system */
+@import '@fontsource/anton/400.css';
+@import '@fontsource/instrument-serif/400.css';
+@import '@fontsource/instrument-serif/400-italic.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F6F4EF;
+    --bg-secondary: #EFECE6;
+    --text-primary: #0E0E0E;
+    --text-muted: #6B6862;
+    --border-hairline: rgba(0, 0, 0, 0.12);
+    --accent-green: #0B5D3B;
+    --accent-green-hover: #08492E;
+    --accent-green-light: rgba(11, 93, 59, 0.08);
+
+    /* Unified vertical rhythm & layout tokens */
+    --section-y: clamp(28px, 3.5vw, 44px);
+    --container-max: 1280px;
+    --container-px: clamp(20px, 5vw, 64px);
+
+    /* Typography scale tokens */
+    --font-eyebrow: 0.75rem;
+    --font-body: clamp(0.9375rem, 1.1vw, 1.0625rem);
+    --font-h2: clamp(2rem, 4vw, 3.25rem);
+    --font-name: clamp(2.5rem, 9.5vw, 7.5rem);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent-green);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+/* Shared Container & Layout */
+.section-wrapper {
+  padding-top: var(--section-y);
+  padding-bottom: var(--section-y);
+  border-bottom: 1px solid var(--border-hairline);
+  position: relative;
+}
+
+.content-container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-px);
+  padding-right: var(--container-px);
+}
+
+/* 3D and Card Perspective */
+.perspective-1200 {
+  perspective: 1200px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}

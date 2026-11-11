@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" fill="none">
+  <!-- Monochrome Cutout Portrait of Amrutha M -->
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAEAEA"/>
+      <stop offset="100%" stop-color="#D0D0D0"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A1A"/>
+      <stop offset="100%" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <filter id="cutout-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Torso & Shoulders (Bleeding off the bottom edge) -->
+  <g filter="url(#cutout-shadow)">
+    <!-- Coat / Blazer -->
+    <path d="M120 650 L120 480 C120 430 160 390 210 375 L250 440 L290 375 C340 390 380 430 380 480 L380 650 Z" fill="#151515"/>
+    
+    <!-- Lapels & Shirt -->
+    <path d="M210 375 L250 490 L290 375 L265 375 L250 430 L235 375 Z" fill="#F7F7F5"/>
+    <path d="M230 460 L250 510 L270 460 L250 450 Z" fill="#222222"/>
+
+    <!-- Neck -->
+    <path d="M220 310 L220 385 C230 395 270 395 280 385 L280 310 Z" fill="#E0E0E0"/>
+    <path d="M220 340 C235 360 265 360 280 340 L280 365 C265 385 235 385 220 365 Z" fill="#CCCCCC" opacity="0.6"/>
+
+    <!-- Hair Back Volume -->
+    <path d="M150 250 C140 350 160 460 190 500 C175 420 170 340 180 260 Z" fill="#111111"/>
+    <path d="M350 250 C360 350 340 460 310 500 C325 420 330 340 320 260 Z" fill="#111111"/>
+
+    <!-- Face Shape -->
+    <path d="M190 200 C185 280 200 340 250 345 C300 340 315 280 310 200 C305 130 195 130 190 200 Z" fill="url(#skin)"/>
+
+    <!-- Hair Front Waves -->
+    <path d="M175 190 C180 100 230 80 260 80 C320 80 335 130 335 210 C325 180 310 150 270 145 C230 140 195 160 175 190 Z" fill="url(#hair)"/>
+    <path d="M185 190 C180 260 170 330 160 370 C175 320 185 260 195 200 Z" fill="#1A1A1A"/>
+    <path d="M315 190 C320 260 330 330 340 370 C325 320 315 260 305 200 Z" fill="#1A1A1A"/>
+
+    <!-- Eyebrows -->
+    <path d="M205 190 C215 185 225 185 235 190" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M265 190 C275 185 285 185 295 190" stroke="#1A1A1A" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Eyes & Subtle Eyelashes -->
+    <ellipse cx="220" cy="205" rx="10" ry="5" fill="#222222"/>
+    <circle cx="222" cy="204" r="2" fill="#FFFFFF"/>
+    <ellipse cx="280" cy="205" rx="10" ry="5" fill="#222222"/>
+    <circle cx="282" cy="204" r="2" fill="#FFFFFF"/>
+
+    <!-- Minimalist Chic Glasses -->
+    <rect x="200" y="193" width="40" height="26" rx="6" fill="none" stroke="#0B7A55" stroke-width="2.5"/>
+    <rect x="260" y="193" width="40" height="26" rx="6" fill="none" stroke="#0B7A55" stroke-width="2.5"/>
+    <path d="M240 203 L260 203" stroke="#0B7A55" stroke-width="2.5"/>
+    <path d="M190 200 L200 203" stroke="#0B7A55" stroke-width="2"/>
+    <path d="M300 203 L310 200" stroke="#0B7A55" stroke-width="2"/>
+
+    <!-- Nose line -->
+    <path d="M248 205 L246 240 L254 242" stroke="#888888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Confident Smile -->
+    <path d="M232 270 C242 282 258 282 268 270" stroke="#222222" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M236 270 C244 276 256 276 264 270 Z" fill="#FFFFFF"/>
+
+    <!-- Earring Accent -->
+    <circle cx="184" cy="245" r="4" fill="#0B7A55"/>
+    <circle cx="316" cy="245" r="4" fill="#0B7A55"/>
+  </g>
+</svg>
