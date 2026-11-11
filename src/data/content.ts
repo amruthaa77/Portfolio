@@ -76,7 +76,7 @@ export const content: NapolitaniContent = {
     email: "amrutha.m63644@gmail.com",
     github: "https://github.com/amruthaa77",
     linkedin: "https://www.linkedin.com/in/m-amrutha",
-    resumePdfPath: "/resume.pdf",
+    resumePdfPath: "/Amrutha_M_Resume.pdf",
     portfolioYear: "PORTFOLIO 2026",
   },
 

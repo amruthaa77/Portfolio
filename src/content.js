@@ -11,7 +11,7 @@ export const content = {
     linkedin: "https://www.linkedin.com/in/m-amrutha",
     linkedinUsername: "linkedin.com/in/m-amrutha",
     location: "Bengaluru, Karnataka, India",
-    resumeUrl: "/resume.pdf",
+    resumeUrl: "/Amrutha_M_Resume.pdf",
     portfolioYear: "PORTFOLIO",
   },
 
